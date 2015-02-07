@@ -12,10 +12,11 @@ Npm.depends({
 Package.onUse(function (api) {
 
   api.add_files([
-    'lib/kld-intersections.js',
-  ], ['client','server']);
+    'lib/kld-intersections.js'
+  ], 'server');
   
   api.export([
     'Intersection'
-  ], ['client','server']);
+  ], 'server');
+  
 });
