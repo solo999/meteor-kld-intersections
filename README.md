@@ -1,0 +1,1 @@
+Wrapper for https://www.npmjs.com/package/kld-intersections
